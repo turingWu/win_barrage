@@ -1,0 +1,10 @@
+﻿<Window x:Class="win_barrage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="微校弹幕" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" WindowStyle="SingleBorderWindow" WindowStartupLocation="CenterScreen" Name="mainWindow" ShowInTaskbar="True" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize" d:DesignHeight="575" d:DesignWidth="743">
+    <Grid>
+        <Button Content="登陆后请进入需要上墙的活动页面" Height="33" HorizontalAlignment="Left" Name="startBtn" VerticalAlignment="Top" Width="721" Margin="0,503,0,0" IsEnabled="False" Foreground="Red" Click="startBtn_Click" />
+        <WebBrowser Height="506" HorizontalAlignment="Left" Name="webBrowser" VerticalAlignment="Top" Width="721" Navigated="webBrowser_Navigated" />
+        <Button Content="停止" Foreground="Red" Height="33" HorizontalAlignment="Left" IsEnabled="True" Margin="0,503,0,0" Name="stopBtn" VerticalAlignment="Top" Width="721" Opacity="1" Visibility="Hidden" Click="stopBtn_Click" />
+    </Grid>
+</Window>

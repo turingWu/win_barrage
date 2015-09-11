@@ -1,0 +1,8 @@
+﻿<Window x:Class="win_barrage.MessageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MessageWindow" Topmost="True" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" AllowsTransparency="True" WindowStyle="None" Background="Transparent" SizeToContent="WidthAndHeight" WindowStartupLocation="Manual" Name="messageWindow" ShowInTaskbar="False" Loaded="messageWindow_Loaded">
+    <Grid>
+        <Label Content="Hello 我是弹幕~~~！！" Height="Auto" HorizontalAlignment="Left" Name="label" VerticalAlignment="Top" Width="Auto" FontSize="24" FontWeight="Bold" Foreground="Red" />
+    </Grid>
+</Window>
